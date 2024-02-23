@@ -12,6 +12,10 @@
             p{
                 color:blue;
             }
+
+            .head-title{
+                color: cyan;
+            }
         </style>
     </head>
     <body>
@@ -19,21 +23,22 @@
         <p id="paragraph1"><b>Hello</b> paragraph</p>
         <h1><em>Hello world</em></h1>
 
+        <h2 class="head-title" style="background-color: brown;">heading 2</h2>
+        <h2 class="head-title">heading 2</h2>
+        <h4 class="head-title">heading 4</h4>
+
         <a href="https://www.google.com/">google</a>
         <a href="https://www.facebook.com/">facebook</a>
 
         <p>hello i am paragraph now i am <span style="color: red;">red</span></p>
     
-        <div style="width: 200px; height: 200px; background-color: green;">
+        <div style="width: 200px; height: 200px; background-color: red;">
             hello div
         </div>
 
         <script>
             var h1= document.getElementById("heading1")
             h1.style.color="yellow" 
-            var p1= document.getElementById("paragraph1")
-            p1.style.color="cyan"
-            p1.style.backgroundColor="yellow"
         </script>
 
     </body>
