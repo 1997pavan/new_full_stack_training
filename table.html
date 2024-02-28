@@ -1,51 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <style>
-        table,th,td{
+        table,
+        th,
+        td {
             border: 2px solid black;
-            width: 800px;
+            width: 300mm;
             text-align: center;
+            height: 10mm;
         }
-        </style>
+
+        table {
+            background-color: bisque;
+        }
+    </style>
     <title>table demo</title>
 </head>
+
 <body>
     <table>
-        
-        <th>Qualification</th>
-        <th>Education</th>
-        <th>College/Univercity</th>
-        <th>Year of Passedout</th>
-        <th>Percentage</th>
-            
-       <tr>
-        <td>B.Tech</td>
-        <td>Elecrtonics and Communication Egg.</td>
-        <td>St. Johns college of Egg. & Technology</td>
-        <td>2018</td>
-        <td>65%</td>
-       </tr>
 
-       <tr>
-        <td>Diploma</td>
-        <td>Electronics and Communications Egg.</td>
-        <td>Loyola Polytechnic College</td>
-        <td>2015</td>
-        <td>76%</td>
-       </tr>
-
-       <tr>
-        <td>SSC</td>
-        <td>---</td>
-        <td>Z.P.H.S School</td>
-        <td>2012</td>
-        <td>87%</td>
-
-       </tr>
-
-       
-
+        <th colspan="6" style="color: blue;">TIME TABLE</th>
+        <tr style="color: red;">
+            <th rowspan="6">HOURS</th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+        <tr style="color: green;">
+            <td><b>Computer
+            <td><b>Maths
+            <td><b>Computer
+            <td><b>Maths
+            <td><b>Arts
+            </td>
+        </tr>
+        <tr style="color: green;">
+            <td><b>Computer
+            <td><b>Maths
+            <td><b>Computer
+            <td><b>Maths
+            <td><b>Arts
+            </td>
+        </tr>
+        <tr>
+            <th colspan="5" style="color: red;">LUNCH</th>
+        </tr>
+        <tr style="color: green;">
+            <td><b>Computer
+            <td><b>Maths
+            <td><b>Computer
+            <td><b>Maths
+            <td rowspan="2" style="color: red;"><b>PROJECT
+            </td>
+        </tr>
+        <tr style="color: green;">
+            <td><b>Computer
+            <td><b>Maths
+            <td><b>Computer
+            <td><b>Maths
+            </td>
+        </tr>
     </table>
 </body>
+
 </html>
