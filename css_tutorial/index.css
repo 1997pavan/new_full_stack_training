@@ -1,6 +1,6 @@
 ul {
     background-color: green;
-    border: 5px solid black;
+    border: 3px solid black;
     margin: 5px;
     text-align: center;
     list-style: none;
@@ -8,6 +8,7 @@ ul {
 
 ul li {
     display: inline-block;
+    background-color: chocolate;
     padding: 5px;
     font-size: 20px;
     width: 200px;
@@ -19,25 +20,16 @@ ul li:hover {
     color: black;
 }
 
-ul li:hover ul {
-    display: block;
-}
-
 ul li ul {
     position: absolute;
     display: none;
 }
+ul li:hover ul {
+    display: block;
+}
 
 ul li ul li {
     display: block;
-    background-color: green;
-}
-
-ul li ul li a {
-    display: block;
-}
-
-ul li ul li:hover a {
-    background: red;
-    color: black;
+    background-color: chocolate;
+    border: 2px solid black;
 }
